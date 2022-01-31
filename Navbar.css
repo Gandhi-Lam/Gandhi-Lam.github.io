@@ -1,0 +1,78 @@
+body {
+    min-width: 1000px;
+    overflow: scroll;
+}
+
+header {
+    background-color: green;
+    height : 3em;
+    font-family: arial, sans-serif;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div,a,nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.5em;
+    font-size: 1.5em;
+    color: yellow;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.nav-right ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-right ul li{
+    display: inline-block;
+}
+
+.nav-list {
+    color: darkblue;
+    margin-right: 0.5em;
+}
+
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 1em;
+    white-space: nowrap; 
+}
+
+.nav-dropdown .left {
+    float: left;
+    white-space: nowrap; 
+}
+
+.nav-dropdown .right {
+    float: right;
+    white-space: nowrap; 
+}
+
+.nav-list:hover {
+    text-decoration: underline;
+}
+
+.nav-list:hover .nav-dropdown {
+    display: block;
+}

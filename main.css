@@ -1,0 +1,4 @@
+.category-product {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
