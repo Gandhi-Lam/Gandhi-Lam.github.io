@@ -1,6 +1,6 @@
 body {
     min-width: 1000px;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 header {
@@ -13,7 +13,9 @@ header {
     justify-content: space-between;
 }
 
-header div,a,nav {
+header div,
+header a,
+header nav {
     display: inline-block;
     vertical-align: middle;
     margin: 0 0.5em;
@@ -51,9 +53,10 @@ header a:hover {
 
 .nav-dropdown {
     display: none;
-    position: absolute;
+    position: fixed;
     right: 0;
     background-color: #f1f1f1;
+    border: 2px solid red;
     color: black;
     font-size: 1em;
     white-space: nowrap; 
