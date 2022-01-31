@@ -52,7 +52,7 @@ html, body {
 
 .category-item:hover {
     background-color: darkgrey;
-    text-decoration: bold;
+    font-weight: bold;
 }
 
 .product {
@@ -73,4 +73,69 @@ html, body {
 
 .products-home {
     font-size: 2.5em;
+}
+
+.products-chosen {
+    display: flex;
+    text-justify: center;
+}
+
+.product-card {
+    display: inline-block;
+    width:380px;
+    height: auto;
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em;
+    background-color: grey;
+    text-align: center;
+    text-justify: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+.product-card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.product-card-name {
+    font-size: 1.25em;
+    text-decoration: underline;
+    color: black;
+}
+
+.product-card-name:hover {
+    color: red;
+}
+
+.product-card-price-add {
+    font-size: 1em;
+    padding: 0.5em 1em 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-card-price-add .left {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.product-card-price-add .right {
+    display: inline-block;
+    vertical-align: middle; 
+    border-radius: 1em;
+    border: none;
+    background-color: darkgrey;
+    text-align: center;
+    height: 1.5em;
+    min-width: 3em;
+    font-size: 0.8em;
+}
+
+.product-card-price-add .right:hover {
+    background-color: grey;
+    color: yellow;
 }
