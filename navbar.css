@@ -1,16 +1,16 @@
 body {
     min-width: 1000px;
-    /* overflow: scroll; */
+    font-family: "Times New Roman", Times, serif;
 }
 
 header {
     background-color: green;
     height : 3em;
-    font-family: arial, sans-serif;
     vertical-align: middle;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: arial, sans-serif;
 }
 
 header div,
