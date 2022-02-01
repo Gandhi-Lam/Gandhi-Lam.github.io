@@ -14,8 +14,7 @@ header {
 }
 
 header div,
-header a,
-header nav {
+header a {
     display: inline-block;
     vertical-align: middle;
     margin: 0 0.5em;
@@ -37,24 +36,16 @@ header a:hover {
     margin: 0;
 }
 
-.nav-right ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.nav-right ul li{
-    display: inline-block;
-}
-
 .nav-list {
-    color: darkblue;
     margin-right: 0.5em;
 }
 
 .nav-dropdown {
     display: none;
     position: fixed;
+    top: 0.5em;
     right: 0;
+    padding: 0.2em;
     background-color: #f1f1f1;
     border: 2px solid red;
     color: black;
@@ -78,4 +69,25 @@ header a:hover {
 
 .nav-list:hover .nav-dropdown {
     display: block;
+}
+
+.nav-input {
+    margin-top: 0.4em;
+    width: 1em;
+}
+
+.checkout-button {
+    border-radius: 1em;
+    border: none;
+    background-color: grey;
+    text-align: center;
+    height: 1.5em;
+    min-width: 3em;
+    font-size: 0.8em;
+    color: yellow;
+}
+
+.checkout-button:hover {
+    background-color: yellow;
+    color: black;
 }
